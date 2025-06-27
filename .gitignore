@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+lib/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Optional: If using turbo or similar tools
+turbo/
+
+# Optional: If using playwright or other test assets
+test-results/
+.playwright/
+
+# Optional: If publishing typings
+types/
+
+# Optional lockfiles (if you don't want them tracked)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

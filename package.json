@@ -1,0 +1,21 @@
+{
+  "name": "ultimate-guitar-scraper-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node-fetch": "^2.6.12",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}
