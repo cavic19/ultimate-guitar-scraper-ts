@@ -45,8 +45,8 @@ function generateAPIKey(deviceID: string): string {
   const utcYear = now.getUTCFullYear();
   const utcMonth = String(now.getUTCMonth() + 1).padStart(2, '0'); // Months are 0-indexed
   const utcDate = String(now.getUTCDate()).padStart(2, '0');
-  const utcHour = String(now.getUTCHours()).padStart(2, '0');
-
+  const utcHour = String(now.getUTCHours())
+  
   // Format: 2006-01-02:15
   const formattedDate = `${utcYear}-${utcMonth}-${utcDate}:${utcHour}`;
 
